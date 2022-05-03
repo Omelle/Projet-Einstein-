@@ -1,0 +1,83 @@
+body{
+    color:black;
+    background-image:url("Images/foret-magique-coloree-small-memory-hd-fond-ecran.jpg");
+    margin:0px; /* Margin:Propriété abrégée pour définir des valeurs pour l'épaisseur de la zone de marge. 
+    Si left est omis, c'est la même chose que right. Si le bas est omis, c'est la même chose que le haut, 
+    si la droite est omise, c'est la même chose que le haut. 
+    Les valeurs négatives pour les propriétés de marge sont autorisées, 
+    mais il peut y avoir des limites spécifiques à l'implémentation.
+    Syntaxe : [ <longueur> | <pourcentage> | automatique ]{1,4}*/
+}
+header{
+    height: 160px;
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a:visited { /* Quand on clique dessus */
+    color:gold
+}
+section {
+    display:flex;
+    width:80%;
+    margin: auto;
+}
+ul {
+    display: flex;
+}
+li{
+    margin-right: 20px;
+    text-decoration:none;
+    list-style-type:none ;/*Permet  d'enlever les point noirs */
+    text-transform:uppercase;/*Permet de mettre le texte en majuscule*/
+}
+a{
+    text-decoration:none; /* Enlève les mots soulignés */
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    margin: right 10px;
+    border-radius:50%;
+}
+
+.logo{
+    display:flex;
+}
+header h1 :hover {
+    color:white /*Quand la souris va survoler le titre celle-ci change de couleur*/
+}
+a:hover{
+    background-color:darkred;
+    color:whitesmoke;
+    font-size: 2,5em; /* Taille de la police*/
+}
+footer{
+    height:100px;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+}
+a:active{ /*Au moment du clic*/
+    background-color:skyblue; /*Quand on clic la couleur change et c'est rapie*/
+}
+.jeunesse, .formation, article{
+    border:groove;
+    border-width:7px;
+    border:groove black 7px;
+    margin: 15px 10px 5px 3px;
+    padding: 20px;/*Propriété abrégée pour définir des valeurs pour l'épaisseur de la zone de remplissage. 
+    Si left est omis, c'est la même chose que right. Si le bas est omis, c'est la même chose que le haut,
+     si la droite est omise, c'est la même chose que le haut. La valeur ne peut pas être négative.
+     Syntaxe : [ <longueur> | <pourcentage> ]{1,4} */
+     border-radius:20px;
+     box-shadow: 6px 6px 0px gold;
+     overflow:auto;
+}
+h2{
+    text-shadow: 6px 6px 5px gold;
+}
